@@ -183,16 +183,27 @@
     <div class="collage" id="collage">
         <div class="overlay">
             <div id="container"></div>
-            <div class="title">Documentos técnicos que puedes personalizar</div>
+            <div class="title">I N G E N I E R O S</div>
             <!-- <div class="title">Técnicas Energéticas y Control Industrial</div> -->
 
-            <a href="https://calculadoradeahorroenergetico.duckdns.org/" class="button">Este es mi rincón personal 
-                donde subo documentos técnicos, apuntes y plantillas que he ido creando a lo largo del tiempo. 
-                Si te dedicas a la ingeniería, la energía solar o la eficiencia energética, puede que encuentres algo útil por aquí.</a>
+            <a href="https://calculadoradeahorroenergetico.duckdns.org/" class="button">Explora nuestra colección de
+                documentos técnicos y personalízalos en línea de forma rápida y sencilla.</a>
         </div>
-
     </div>
 
+    <footer>
+        <p>&copy; 2025 <span id="web1"></span></p>
+        <p>
+            <a href="#" onclick="openModal('modalPolitica', event)"
+                style="color: white; text-decoration: underline;">Política de privacidad</a> |
+            <a href="#" onclick="openModal('modalTerminos', event)"
+                style="color:white; text-decoration: underline;">Términos de uso</a> |
+            <a href="#" onclick="openModal('modalAcercade', event)"
+                style="color: white; text-decoration: underline;">Contacto</a> |
+            <a href="#" onclick="openModal('modal_', event)"
+                style="color: var(--primary-color); text-decoration: underline;">.</a>
+        </p>
+    </footer>
 
     <!-- Modales -->
     <div id="modal_" class="modal">
@@ -222,7 +233,7 @@
         mainSpan.style.letterSpacing = ".3rem"; // Espaciado entre letras
 
         // Crear el texto "TEC"
-        const textNode = document.createTextNode("Doc");
+        const textNode = document.createTextNode("TEC");
 
         // Crear el span interno para la "I"
         const innerSpan = document.createElement("span");
@@ -232,7 +243,7 @@
         innerSpan.style.fontFamily = "Arial, sans-serif"; // Asegurar la misma fuente
         innerSpan.style.fontWeight = "700"; // Negrita
         innerSpan.style.letterSpacing = ".3rem"; // Espaciado entre letras
-        innerSpan.textContent = "Tec";
+        innerSpan.textContent = "I";
 
         // Insertar los elementos en el DOM
         mainSpan.appendChild(textNode);
